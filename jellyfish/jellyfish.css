@@ -1,0 +1,111 @@
+@font-face {
+    src: url(./fonts/kameron/Kameron-Regular.ttf);
+    font-family: "Kameron";
+    src: url(./fonts/karma/Karma-Regular.ttf);
+    font-family: "Karma";
+}
+
+body{
+    background-image: url(./images/background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.mum {
+    display: flex;
+    justify-content: space-around;
+}
+.d-flex{
+    display: flex;
+    text-align: space-around;
+    word-spacing: 50px;
+    width: 95%;
+    height: 100px;
+    align-items: center;    
+}
+
+nav > a{
+    font-family: "Karma";
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: 600;    
+}
+
+nav{
+    margin: auto;
+}
+
+.text{
+    width: 785px;
+    height: 136px;
+    color: white;
+    text-align: center;
+    font-family: Kameron;
+    font-size: 29px;
+    margin: auto;
+    margin-top: 28%;
+}
+
+.background-text{
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 94.27%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.div3{
+    width: 785px;
+    height: 36px;
+    margin: auto;
+    padding-left: 88px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.arrow{
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.join{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-family: Karma;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.table{
+    color: #FFF;
+    font-family: Karma;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.center{
+    display: flex;
+    align-items: last baseline;
+}
+.right-side{
+    width: 120px;
+    height: 100px;
+    display: flex;
+    align-items:last baseline;
+    gap: 15px;
+}
